@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Poke SDK iOS Docs
 
 You can use the [editor on GitHub](https://github.com/Mahia113/pokeSDKiOS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
