@@ -4,9 +4,22 @@ You can use the [editor on GitHub](https://github.com/Mahia113/pokeSDKiOS/edit/g
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The Poké API Swift Client
+
+Swift implementation to the awesome Poké API
+
+
+### Table of Contents 
+
+- Table of Contents
+- Installation
+- Usage
+- Contributing
+- License
+- Contact
+- Acknowledgements
+
 
 ```markdown
 Syntax highlighted code block
