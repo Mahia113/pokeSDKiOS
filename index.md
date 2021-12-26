@@ -14,7 +14,7 @@ Swift implementation to the awesome Poké API
 - [Usage](#usage)
   - [Init](#init)
   - [Objects](#objects)
-  - [Examples][docs/examples.md]
+  - [Examples](docs/examples.md)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
