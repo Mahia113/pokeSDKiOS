@@ -39,6 +39,8 @@ An easy way to create the init object of PokeSDK
 let rmClient = RMClient()
 ```
 
+### Examples
+
 A brief example using the PokeSDK.
 
 Example to get all characters as an array of character struct:
@@ -57,7 +59,7 @@ let rmClient = RMClient()
             })
 ```
 
-*For more examples, please refer to the [Examples][docs/examples.md] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
+*For more examples, please refer to the [Examples](docs/examples.md) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
 ### [Objects](docs/objects.md)
