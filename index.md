@@ -30,7 +30,9 @@ For instructions how to add a Swift package to your projects look here:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-###### Init SDK
+### Init
+
+An essy way to create the init object of PokeSDK
 
 ```swift
 let rmClient = RMClient()
@@ -57,10 +59,10 @@ let rmClient = RMClient()
 *For more examples, please refer to the [Examples][doc-link] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
-## Objects
+### Objects
 
-- pokemonSDK
-- pokemons
+- PokemonSDK
+- Pokemons
 - [Installation](#installation)
 
 
