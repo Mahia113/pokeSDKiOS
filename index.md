@@ -14,6 +14,7 @@ Swift implementation to the awesome Poké API
 - [Usage](#usage)
   - [Init](#init)
   - [Objects](#objects)
+  - [Examples][docs/examples.md]
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -56,7 +57,7 @@ let rmClient = RMClient()
             })
 ```
 
-*For more examples, please refer to the [Examples][doc-link] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
+*For more examples, please refer to the [Examples][docs/examples.md] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
 ### [Objects](docs/objects.md)
