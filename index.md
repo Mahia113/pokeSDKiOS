@@ -59,7 +59,7 @@ let rmClient = RMClient()
 *For more examples, please refer to the [Examples][doc-link] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
-### Objects
+### [Objects](docs/objects.md)
 
 This section shows you a list with all available methods. Also each object has own methods. 
 
