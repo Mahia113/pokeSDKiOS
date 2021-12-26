@@ -13,8 +13,8 @@ Swift implementation to the awesome Poké API
 - [Installation](#installation)
 - [Usage](#usage)
   - [Init](#init)
-  - [Objects](#objects)
   - [Examples](#examples)
+  - [Objects](#objects)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -71,7 +71,7 @@ This section shows you a list with all available methods. Also each object has o
 - NetworkHandler
 - [Installation](#installation)
 
-*Complete list of [PokeSDK Objects](docs/objects.md)*
+*See complete list of [PokeSDK Objects](docs/objects.md)*
 
 ## Contributing
 
