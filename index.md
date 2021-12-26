@@ -38,7 +38,7 @@ An essy way to create the init object of PokeSDK
 let rmClient = RMClient()
 ```
 
-A brief example using the sdk
+A brief example using the PokeSDK.
 
 Example to get all characters as an array of character struct:
 
@@ -60,6 +60,8 @@ let rmClient = RMClient()
 
 
 ### Objects
+
+This section show all available methods. Also each object has own methods. 
 
 - PokemonSDK
 - Pokemons
