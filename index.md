@@ -2,8 +2,6 @@
 
 You can use the [editor on GitHub](https://github.com/Mahia113/pokeSDKiOS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 
 ### The Poké API Swift Client
 
@@ -15,6 +13,8 @@ Swift implementation to the awesome Poké API
 - Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Init SDK](#Init SDK)
+  - [Objects](#Objects)
 - Contributing
 - License
 - Contact
@@ -32,6 +32,7 @@ For instructions how to add a Swift package to your projects look here:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+## Init SDK
 Example to get all characters as an array of character struct:
 
 **1. Init client:**
@@ -48,8 +49,10 @@ let rmClient = RMClient()
             })
 ```
 
-*For more examples, please refer to the [Documentation][doc-link] or visit [Test Section][test-link]*
+*For more examples, please refer to the [Examples][doc-link] or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
+
+## Objects
 
 
 ```markdown
