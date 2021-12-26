@@ -10,10 +10,9 @@ Swift implementation to the awesome Poké API
 
 ### Table of Contents 
 
-- Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Init SDK](#init SDK)
+  - [Init](#init)
   - [Objects](#objects)
 - Contributing
 - License
@@ -26,13 +25,12 @@ Swift implementation to the awesome Poké API
 
 For instructions how to add a Swift package to your projects look here:
 
-[Apple - Adding package dependencies to your app](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-## Init SDK
+###### Init SDK
 
 ```swift
 let rmClient = RMClient()
@@ -64,13 +62,7 @@ let rmClient = RMClient()
 - pokemonSDK
 - pokemons
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Init SDK](#init SDK)
-  - [Objects](#objects)
-- Contributing
-- License
-- Contact
-- Acknowledgements
+
 
 ```markdown
 Syntax highlighted code block
