@@ -14,10 +14,10 @@ Swift implementation to the awesome Poké API
 - [Usage](#usage)
   - [Init](#init)
   - [Objects](#objects)
-- Contributing
-- License
-- Contact
-- Acknowledgements
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#Acknowledgements)
 
 
 <!-- INSTALLATION -->
@@ -69,4 +69,12 @@ This section shows you a list with all available methods. Also each object has o
 - [Installation](#installation)
 
 *Complete list of [PokeSDK Objects](docs/objects.md)*
+
+## Contributing
+
+## License
+
+## Contact
+
+## Acknowledgements
 
