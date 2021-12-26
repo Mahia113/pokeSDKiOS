@@ -13,8 +13,8 @@ Swift implementation to the awesome Poké API
 - Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Init SDK](#Init SDK)
-  - [Objects](#Objects)
+  - [Init SDK](#init SDK)
+  - [Objects](#objects)
 - Contributing
 - License
 - Contact
@@ -33,6 +33,13 @@ For instructions how to add a Swift package to your projects look here:
 ## Usage
 
 ## Init SDK
+
+```swift
+let rmClient = RMClient()
+```
+
+A brief example using the sdk
+
 Example to get all characters as an array of character struct:
 
 **1. Init client:**
@@ -54,6 +61,16 @@ let rmClient = RMClient()
 
 ## Objects
 
+- pokemonSDK
+- pokemons
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Init SDK](#init SDK)
+  - [Objects](#objects)
+- Contributing
+- License
+- Contact
+- Acknowledgements
 
 ```markdown
 Syntax highlighted code block
