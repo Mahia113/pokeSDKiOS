@@ -1,6 +1,6 @@
 ## Welcome to Poke SDK iOS Docs
 
-You can use the [editor on GitHub](https://github.com/Mahia113/pokeSDKiOS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to Poke API.
 
 
 ### The Poké API Swift Client
@@ -70,30 +70,3 @@ This section shows you a list with all available methods. Also each object has o
 
 *Complete list of [PokeSDK Objects](docs/objects.md)*
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mahia113/pokeSDKiOS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
