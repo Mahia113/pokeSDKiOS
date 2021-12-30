@@ -1,4 +1,4 @@
-## Welcome to Poke SDK iOS Docs
+## [Welcome to Poke SDK iOS Docs](index.md)
 
 ## Structs
 
