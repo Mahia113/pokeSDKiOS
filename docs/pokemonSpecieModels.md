@@ -33,8 +33,8 @@ public struct PokemonSpecieModel: Codable, Identifiable
 ```
 **Properties**
 
-- **id:** The identifier for this color.
-- **name:** The name for this color.
+- **id:** The identifier for this specie.
+- **name:** The name for this specie.
 - **order:** The order in which species should be sorted. Based on National Dex order, except families are grouped together and sorted by stage.
 - **gender_rate:** The chance of this Pokémon being female, in eighths; or -1 for genderless.
 - **capture_rate:** The base capture rate; up to 255. The higher the number, the easier the catch.
