@@ -1,4 +1,4 @@
-## Welcome to Poke SDK iOS Docs
+## [Welcome to Poke SDK iOS Docs](index.md)
 
 Welcome to Poke API.
 
@@ -17,7 +17,7 @@ Swift implementation to the awesome Poké API
   - [Structs](#structs)
 - [Documentation](#documentation)
 - [Contact](#contact)
-- [Acknowledgements](#Acknowledgements)
+- [Acknowledgements](#acknowledgements)
 
 
 <!-- INSTALLATION -->
@@ -79,7 +79,7 @@ let pokeSDK = PokeSDK()
  )
 ```
 
-*For more examples, please refer to the [Examples](docs/examples.md) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
+*For more examples, please refer to the [Examples](https://mahia113.github.io/pokeSDKiOS/) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
 ### Structs
@@ -102,7 +102,6 @@ This section shows you a list with all available Structs. Also each object has o
 See complete docs here: 
 
 - [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)
-- [Examples](docs/examples.md)
 - [Structs](docs/objects.md)
 
 
