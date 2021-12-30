@@ -16,8 +16,6 @@ Swift implementation to the awesome Poké API
   - [Examples](#examples)
   - [Objects](#objects)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#Acknowledgements)
 
@@ -103,9 +101,6 @@ See complete docs here:
 - [Examples](docs/examples.md)
 - [Objects](docs/objects.md)
 
-## License
-
-Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
