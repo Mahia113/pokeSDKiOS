@@ -62,6 +62,17 @@ Available methods:
 
 ### PokemonHabitat
 
+PokemonHabitat struct contains all functions to request habitat information(s) of pokemon world.
+
+Init method requires a client objet of PokeSDK type. 
+
+Available methods: 
+
+- [init()](pokemonHabitat.md#init)
+- [getAllHabitats()](pokemonHabitat.md#getAllColors)
+- [getHabitatById()](pokemonHabitat.md#getHabitatById)
+- [getHabitatByName()](pokemonHabitat.md#getHabitatByName)
+
 ### PokemonSpecie
 
 ### PokemonStat
