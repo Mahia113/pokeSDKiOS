@@ -2,7 +2,7 @@
 
 All models used for Pokemon Struct
 
-Avalable methods: 
+Available methods: 
 
 - [PokemonsModel](#pokemonsModel)
 - [PokemonModel](#pokemonModel)
