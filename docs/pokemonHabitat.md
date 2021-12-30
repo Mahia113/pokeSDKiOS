@@ -8,8 +8,8 @@ Available methods:
 
 - [init()](#init)
 - [getAllHabitats()](#getAllHabitats)
-- [getHabitatById()](#getColorById)
-- [getHabitatByName()](#getColorByName)
+- [getHabitatById()](#getHabitatById)
+- [getHabitatByName()](#getHabitatByName)
 
 
 ## init()
@@ -37,15 +37,15 @@ public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
 
 ## getHabitatById()
 
-Request a pokemon by id.
+Request a habitat by id.
 
 **Parameters**
 
-- **id:** id of pokemon.
+- **id:** id of habitat.
 
 **Declaration**
 ```swift
-public func getPokemonByID(id: Int) -> Future <PokemonModel, Error>
+public func getHabitatById(id: Int) -> Future <PokemonHabitatModel, Error>
 ```
 
 **Return Value**
@@ -54,15 +54,15 @@ public func getPokemonByID(id: Int) -> Future <PokemonModel, Error>
 
 ## getHabitatByName()
 
-Request a pokemon by name.
+Request a habitat by name.
 
 **Parameters**
 
-- **name:** name of pokemon.
+- **name:** name of habitat.
 
 **Declaration**
 ```swift
-public func getPokemonByName(name: String) -> Future <PokemonModel, Error>
+public func getHabitatByName(name: String) -> Future <PokemonHabitatModel, Error>
 ```
 
 **Return Value**
