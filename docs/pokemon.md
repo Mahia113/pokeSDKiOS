@@ -39,6 +39,10 @@ public func getAllPokemons() -> Future <PokemonsModel, Error>
 
 Request all pokemons by URL. Useful for pagination.
 
+**Parameters**
+
+- **url:** url for request a list of pokemons
+
 **Declaration**
 ```swift
 public func getAllPokemonsByUrl(url: String) -> Future <PokemonsModel, Error> 
