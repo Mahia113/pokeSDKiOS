@@ -74,8 +74,8 @@ let pokeSDK = PokeSDK()
                  break
              }
          },
-     receiveValue: { pokemons in
-           print(pokemons)
+       receiveValue: { pokemons in
+             print(pokemons)
          }
  )
 ```
@@ -98,11 +98,11 @@ This section shows you a list with all available methods. Also each object has o
 
 See complete docs here: 
 
-[PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
+[PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)
 
 [Examples](docs/examples.md)
 
-[Objects](docs/examples.md)
+[Objects](docs/objects.md)
 
 ## Contributing
 
