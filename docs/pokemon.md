@@ -32,6 +32,7 @@ public func getAllPokemons() -> Future <PokemonsModel, Error>
 ```
 
 **Return Value**
+
 PokemonsModel model struct. 
 
 ## getAllPokemonsByUrl()
