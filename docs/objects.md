@@ -75,6 +75,18 @@ Available methods:
 
 ### PokemonSpecie
 
+PokemonSpecie struct contains all functions to request specie information(s) of pokemon world.
+
+Init method requires a client objet of PokeSDK type. 
+
+Available methods: 
+
+- [init()](pokemonSpecie.md#init)
+- [getAllSpecies()](pokemonSpecie.md#getAllSpecies)
+- [getAllSpeciesByURL()](pokemonSpecie.md#getAllSpeciesByURL)
+- [getSpecieById()](pokemonSpecie.md#getHabitatById)
+- [getSpecieByName()](pokemonSpecie.md#getHabitatByName)
+
 ### PokemonStat
 
 ### PokemonType
