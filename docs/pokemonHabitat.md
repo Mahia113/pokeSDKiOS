@@ -1,6 +1,6 @@
 # PokemonHabitat Struct
 
-PokemonHabitat struct contains all functions to request color information(s) of pokemon world.
+PokemonHabitat struct contains all functions to request habitat information(s) of pokemon world.
 
 Init method requires a client objet of PokeSDK type. 
 
@@ -23,16 +23,16 @@ public init(client: PokeSDK)
 
 ## getAllHabitats()
 
-Request all colors of pokemon world.
+Request all habitats of pokemon world.
 
 **Declaration**
 ```swift
-public func getAllColors() -> Future <PokemonColorsModel, Error>
+public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
 ```
 
 **Return Value**
 
-[PokemonColorsModel](pokemonColorModels.md#pokemonColorsModel) model struct. 
+[PokemonHabitatsModel](pokemonHabitatModels.md#pokemonHabitatsModel) model struct. 
 
 
 ## getHabitatById()
@@ -50,7 +50,7 @@ public func getPokemonByID(id: Int) -> Future <PokemonModel, Error>
 
 **Return Value**
 
-[PokemonColorModel](pokemonColorModels.md#pokemonColorModel) model struct. 
+[PokemonHabitatModel](pokemonHabitatModels.md#pokemonHabitatModel) model struct. 
 
 ## getHabitatByName()
 
@@ -67,4 +67,4 @@ public func getPokemonByName(name: String) -> Future <PokemonModel, Error>
 
 **Return Value**
 
-[PokemonColorModel](pokemonColorModels.md#pokemonColorModel) model struct. 
+[PokemonHabitatModel](pokemonHabitatModels.md#pokemonHabitatModel) model struct. 
