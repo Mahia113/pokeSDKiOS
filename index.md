@@ -105,11 +105,15 @@ See complete docs here:
 
 - [Objects](docs/objects.md)
 
-## Contributing
-
 ## License
+
+Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
+Linkedin:
+
 ## Acknowledgements
 
+[Poke API](https://pokeapi.co/)
+[Github Pages](https://pages.github.com/)
