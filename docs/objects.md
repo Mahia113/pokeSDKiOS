@@ -84,8 +84,8 @@ Available methods:
 - [init()](pokemonSpecie.md#init)
 - [getAllSpecies()](pokemonSpecie.md#getAllSpecies)
 - [getAllSpeciesByURL()](pokemonSpecie.md#getAllSpeciesByURL)
-- [getSpecieById()](pokemonSpecie.md#getHabitatById)
-- [getSpecieByName()](pokemonSpecie.md#getHabitatByName)
+- [getSpecieById()](pokemonSpecie.md#getSpecieById)
+- [getSpecieByName()](pokemonSpecie.md#getSpecieByName)
 
 ### PokemonStat
 
