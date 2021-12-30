@@ -58,7 +58,7 @@ Request a pokemon by id.
 
 **Parameters**
 
-- **id:** id of pokemon
+- **id:** id of pokemon.
 
 **Declaration**
 ```swift
@@ -69,4 +69,19 @@ public func getPokemonByID(id: Int) -> Future <PokemonModel, Error>
 
 [PokemonModel](pokemonModels.md#PokemonModel) model struct. 
 
-## getPokemonByName(name: )
+## getPokemonByName()
+
+Request a pokemon by name.
+
+**Parameters**
+
+- **name:** name of pokemon.
+
+**Declaration**
+```swift
+public func getPokemonByName(name: String) -> Future <PokemonModel, Error>
+```
+
+**Return Value**
+
+[PokemonModel](pokemonModels.md#PokemonModel) model struct. 
