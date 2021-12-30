@@ -33,7 +33,7 @@ public func getAllPokemons() -> Future <PokemonsModel, Error>
 
 **Return Value**
 
-PokemonsModel model struct. 
+PokemonsModel model struct. [PokemonsModel](pokemonModels.md#PokemonsModel)
 
 ## getAllPokemonsByUrl()
 
