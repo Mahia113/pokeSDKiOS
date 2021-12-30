@@ -42,7 +42,7 @@ Request all species of pokemon world.
 
 Parameters
 
-**url:** url for request a list of species
+- **url:** url for request a list of species
 
 **Declaration**
 ```swift
