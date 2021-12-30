@@ -30,9 +30,9 @@ You can install pokeSDKiOS in two ways:
 - Importing framework file
 - Using cocoapods 
 
-For instructions how to add a pod look here:
+For instructions how to import a framework:
 
-For instructions how to import a framework look here: 
+To include a framework in your Xcode project, choose Project > Add to Project and select the framework directory. It's possible you need to add manually the option 'embed and sign', sometimes xcode does not.
 
 
 <!-- USAGE EXAMPLES -->
