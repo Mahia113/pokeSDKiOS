@@ -23,16 +23,16 @@ public init(client: PokeSDK)
 
 ## getAllColors()
 
-Request all pokemons.
+Request all colors of pokemon world.
 
 **Declaration**
 ```swift
-public func getAllPokemons() -> Future <PokemonsModel, Error>
+public func getAllColors() -> Future <PokemonColorsModel, Error>
 ```
 
 **Return Value**
 
-[PokemonsModel](pokemonModels.md#PokemonsModel) model struct. 
+[PokemonColorsModel](pokemonColorModels.md#pokemonColorsModel) model struct. 
 
 
 ## getColorById()
@@ -50,7 +50,7 @@ public func getPokemonByID(id: Int) -> Future <PokemonModel, Error>
 
 **Return Value**
 
-[PokemonModel](pokemonModels.md#PokemonModel) model struct. 
+[PokemonColorModel](pokemonColorModels.md#pokemonColorModel) model struct. 
 
 ## getColorByName()
 
@@ -67,4 +67,4 @@ public func getPokemonByName(name: String) -> Future <PokemonModel, Error>
 
 **Return Value**
 
-[PokemonModel](pokemonModels.md#PokemonModel) model struct. 
+[PokemonColorModel](pokemonColorModels.md#pokemonColorModel) model struct. 
