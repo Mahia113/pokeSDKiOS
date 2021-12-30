@@ -7,10 +7,10 @@ Init method requires a client objet of PokeSDK type.
 Available methods: 
 
 - [init()](#init)
-- [getAllSpecies()](pokemonSpecie.md#getAllSpecies)
-- [getAllSpeciesByURL()](pokemonSpecie.md#getAllSpeciesByURL)
-- [getSpecieById()](pokemonSpecie.md#getSpecieById)
-- [getSpecieByName()](pokemonSpecie.md#getSpecieByName)
+- [getAllSpecies()](#getAllSpecies)
+- [getAllSpeciesByURL()](#getAllSpeciesByURL)
+- [getSpecieById()](#getSpecieById)
+- [getSpecieByName()](#getSpecieByName)
 
 
 ## init()
@@ -24,61 +24,65 @@ public init(client: PokeSDK)
 
 ## getAllSpecies()
 
-Request all habitats of pokemon world.
+Request all species of pokemon world.
 
 **Declaration**
 ```swift
-public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
+public func getAllSpecies() -> Future <PokemonSpeciesModel, Error>
 ```
 
 **Return Value**
 
-[PokemonHabitatsModel](pokemonHabitatModels.md#pokemonHabitatsModel) model struct. 
+[PokemonSpeciesModel](pokemonSpecieModels.md#pokemonSpeciesModel) model struct. 
 
 
 ## getAllSpeciesByURL()
 
-Request all habitats of pokemon world.
+Request all species of pokemon world.
+
+Parameters
+
+**url:** url for request a list of species
 
 **Declaration**
 ```swift
-public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
+public func getAllSpeciesByURL(url: String) -> Future <PokemonSpeciesModel, Error>
 ```
 
 **Return Value**
 
-[PokemonHabitatsModel](pokemonHabitatModels.md#pokemonHabitatsModel) model struct. 
+[PokemonSpeciesModel](pokemonSpecieModels.md#pokemonSpeciesModel) model struct. 
 
 ## getSpecieById()
 
-Request a habitat by id.
+Request a specie by id.
 
 **Parameters**
 
-- **id:** id of habitat.
+- **id:** id of specie.
 
 **Declaration**
 ```swift
-public func getHabitatById(id: Int) -> Future <PokemonHabitatModel, Error>
+public func getSpecieById(id: Int) -> Future <PokemonSpecieModel, Error>
 ```
 
 **Return Value**
 
-[PokemonHabitatModel](pokemonHabitatModels.md#pokemonHabitatModel) model struct. 
+[PokemonSpecieModel](pokemonSpecieModels.md#pokemonSpecieModel) model struct. 
 
 ## getSpecieByName()
 
-Request a habitat by name.
+Request a specie by name.
 
 **Parameters**
 
-- **name:** name of habitat.
+- **name:** name of specie.
 
 **Declaration**
 ```swift
-public func getHabitatByName(name: String) -> Future <PokemonHabitatModel, Error>
+public func getSpecieByName(name: String) -> Future <PokemonSpecieModel, Error>
 ```
 
 **Return Value**
 
-[PokemonHabitatModel](pokemonHabitatModels.md#pokemonHabitatModel) model struct. 
+[PokemonSpecieModel](pokemonSpecieModels.md#pokemonSpecieModel) model struct. 
