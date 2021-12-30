@@ -6,7 +6,7 @@ Init method requires a client objet of PokeSDK type.
 
 Avalable methods: 
 
-- [init()](#init())
+- [init()](#init)
 - [getAllPokemons()](#getAllPokemons())
 - [getAllPokemonsByUrl()](#getAllPokemonsByUrl())
 - [getPokemonByID()](#getPokemonByID())
