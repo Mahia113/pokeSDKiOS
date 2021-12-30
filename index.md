@@ -14,7 +14,7 @@ Swift implementation to the awesome Poké API
 - [Usage](#usage)
   - [Init](#init)
   - [Examples](#examples)
-  - [Objects](#objects)
+  - [Structs](#structs)
 - [Documentation](#documentation)
 - [Contact](#contact)
 - [Acknowledgements](#Acknowledgements)
@@ -82,16 +82,21 @@ let pokeSDK = PokeSDK()
 *For more examples, please refer to the [Examples](docs/examples.md) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
 
 
-### Objects
+### Structs
 
-This section shows you a list with all available methods. Also each object has own methods. 
+This section shows you a list with all available Structs. Also each object has own methods. 
 
-- PokemonSDK
+- PokeSDK
 - Pokemon
+- PokemonColor
+- PokemonHabitat
+- PokemonSpecie
+- PokemonStat
+- PokemonType
 - NetworkHandler
 - [Installation](#installation)
 
-*See complete list of [PokeSDK Objects](docs/objects.md)*
+*See complete list of structs and their methods [PokeSDK Structs](docs/objects.md)*
 
 ## Documentation
 
@@ -99,12 +104,12 @@ See complete docs here:
 
 - [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)
 - [Examples](docs/examples.md)
-- [Objects](docs/objects.md)
+- [Structs](docs/objects.md)
 
 
 ## Contact
 
-[Linkedin](https://www.linkedin.com/in/jos%C3%A9-luis-l-01556583/)
+[LinkedIn](https://www.linkedin.com/in/jos%C3%A9-luis-l-01556583/)
 
 ## Acknowledgements
 
