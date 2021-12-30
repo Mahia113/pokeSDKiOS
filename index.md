@@ -75,6 +75,7 @@ let pokeSDK = PokeSDK()
              }
          },
        receiveValue: { pokemons in
+             // here are your pokemons
              print(pokemons)
          }
  )
@@ -98,11 +99,11 @@ This section shows you a list with all available methods. Also each object has o
 
 See complete docs here: 
 
-[PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)
+- [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)
 
-[Examples](docs/examples.md)
+- [Examples](docs/examples.md)
 
-[Objects](docs/objects.md)
+- [Objects](docs/objects.md)
 
 ## Contributing
 
