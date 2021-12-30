@@ -17,6 +17,12 @@ This section shows you a list with all available Structs. Also each object has o
 
 This struct is the entry for PokeSDK. Init is empty, is not necesary pass arguments.
 
+#init()
+
+```swift
+public init()
+```
+
 Avalable methods: 
 
 - [Pokemon()](#pokemon)
