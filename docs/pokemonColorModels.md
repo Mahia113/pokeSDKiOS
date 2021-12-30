@@ -33,8 +33,8 @@ public struct PokemonColorModel: Codable, Identifiable
 ```
 **Properties**
 
-- **id:** The identifier for this pokemon.
-- **name:** The name for this pokemon.
+- **id:** The identifier for this color.
+- **name:** The name for this color.
 - **pokemon_species:** A list of the Pokémon species that have this color.
 
 
