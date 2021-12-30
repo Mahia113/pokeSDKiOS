@@ -24,8 +24,16 @@ Swift implementation to the awesome Poké API
 <!-- INSTALLATION -->
 ## Installation
 
-For instructions how to add a Swift package to your projects look here:
+It requires iOS 13+ and Xcode 13!
 
+You can install pokeSDKiOS in two ways: 
+
+- Importing framework file
+- Using cocoapods 
+
+For instructions how to add a pod look here:
+
+For instructions how to import a framework look here: 
 
 
 <!-- USAGE EXAMPLES -->
