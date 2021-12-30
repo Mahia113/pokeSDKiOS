@@ -23,48 +23,48 @@ public init(client: PokeSDK)
 
 ## getAllStats()
 
-Request all species of pokemon world.
+Request all stats of pokemon world.
 
 **Declaration**
 ```swift
-public func getAllSpecies() -> Future <PokemonSpeciesModel, Error>
+public func getAllStats() -> Future <PokemonStatsModel, Error>
 ```
 
 **Return Value**
 
-[PokemonSpeciesModel](pokemonSpecieModels.md#pokemonSpeciesModel) model struct. 
+[PokemonStatsModel](pokemonStatModels.md#pokemonStatsModel) model struct. 
 
 
 ## getDescriptionOfStatById()
 
-Request a specie by id.
+Request a stat by id.
 
 **Parameters**
 
-- **id:** id of specie.
+- **id:** id of stat.
 
 **Declaration**
 ```swift
-public func getSpecieById(id: Int) -> Future <PokemonSpecieModel, Error>
+public func getDescriptionOfStatById(id: Int) -> Future <PokemonStatModel, Error>
 ```
 
 **Return Value**
 
-[PokemonSpecieModel](pokemonSpecieModels.md#pokemonSpecieModel) model struct. 
+[PokemonStatModel](pokemonStatModels.md#pokemonStatModel) model struct. 
 
 ## getDescriptionOfStatByName()
 
-Request a specie by name.
+Request a stat by name.
 
 **Parameters**
 
-- **name:** name of specie.
+- **name:** name of stat.
 
 **Declaration**
 ```swift
-public func getSpecieByName(name: String) -> Future <PokemonSpecieModel, Error>
+public func getDescriptionOfStatByName(name: String) -> Future <PokemonStatModel, Error>
 ```
 
 **Return Value**
 
-[PokemonSpecieModel](pokemonSpecieModels.md#pokemonSpecieModel) model struct. 
+[PokemonStatModel](pokemonStatModels.md#pokemonStatModel) model struct. 
