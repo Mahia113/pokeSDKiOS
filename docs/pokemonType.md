@@ -23,48 +23,48 @@ public init(client: PokeSDK)
 
 ## getAllTypes()
 
-Request all stats of pokemon world.
+Request all types of pokemon world.
 
 **Declaration**
 ```swift
-public func getAllStats() -> Future <PokemonStatsModel, Error>
+public func getAllTypes() -> Future <PokemonTypesModel, Error> 
 ```
 
 **Return Value**
 
-[PokemonStatsModel](pokemonStatModels.md#pokemonStatsModel) model struct. 
+[PokemonTypesModel](pokemonTypeModels.md#pokemonTypesModel) model struct. 
 
 
 ## getTypeById()
 
-Request a stat by id.
+Request a type of pokemon by id.
 
 **Parameters**
 
-- **id:** id of stat.
+- **id:** id of type.
 
 **Declaration**
 ```swift
-public func getDescriptionOfStatById(id: Int) -> Future <PokemonStatModel, Error>
+public func getTypeById(id: Int) -> Future <PokemonTypeModel, Error>
 ```
 
 **Return Value**
 
-[PokemonStatModel](pokemonStatModels.md#pokemonStatModel) model struct. 
+[PokemonTypeModel](pokemonTypeModels.md#pokemonTypeModel) model struct. 
 
 ## getTypeByName()
 
-Request a stat by name.
+Request a type of pokemon by name.
 
 **Parameters**
 
-- **name:** name of stat.
+- **name:** name of type.
 
 **Declaration**
 ```swift
-public func getDescriptionOfStatByName(name: String) -> Future <PokemonStatModel, Error>
+public func getTypeByName(name: String) -> Future <PokemonTypeModel, Error>
 ```
 
 **Return Value**
 
-[PokemonStatModel](pokemonStatModels.md#pokemonStatModel) model struct. 
+[PokemonTypeModel](pokemonTypeModels.md#pokemonTypeModel) model struct. 
