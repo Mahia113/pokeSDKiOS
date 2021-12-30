@@ -2,7 +2,7 @@
 
 All models used for Pokemon Struct
 
-Available methods: 
+Available models: 
 
 - [PokemonsModel](#pokemonsModel)
 - [PokemonModel](#pokemonModel)
@@ -11,4 +11,19 @@ Available methods:
 
 ## PokemonsModel
 
+PokemonsModel struct for decoding pokemons json response.
+
+**Declaration**
+```swift
+public struct PokemonsModel: Codable
+```
+- **count:** number of pokemons found.
+- **next:** url for request the next 20 pokemons.
+- **previous** url for request the previous 20 pokemons.
+- **results** Pokemons found in the request.
+
+
 ## PokemonModel
+
+
+
