@@ -6,8 +6,6 @@ Available models:
 
 - [PokemonsModel](#pokemonsModel)
 - [PokemonModel](#pokemonModel)
-- [getAllPokemonsByUrl()](#getAllPokemonsByUrl)
-- [getPokemonByID()](#getPokemonByID)
 
 ## PokemonsModel
 
