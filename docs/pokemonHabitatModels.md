@@ -9,32 +9,31 @@ Available models:
 
 ## PokemonHabitatsModel
 
-PokemonColorsModel struct for decoding a list of colors json response.
+PokemonHabitatsModel struct for decoding a list of habitats json response.
 
 **Declaration**
 ```swift
-public struct PokemonColorsModel: Codable
+public struct PokemonHabitatsModel: Codable
 ```
 **Properties**
 
-- **count:** number of colors found.
-- **next:** url for request the next 20 colors.
-- **previous:** url for request the previous 20 colors.
-- **results:** Colors found in the request.
+- **count:** number of habitats found.
+- **next:** url for request the next 20 habitats.
+- **previous:** url for request the previous 20 habitats.
+- **results:** Habitats found in the request.
 
 
 ## PokemonHabitatModel
 
-PokemonColorModel struct for decoding color json response.
+PokemonHabitatModel struct for decoding habitat json response.
 
 **Declaration**
 ```swift
-public struct PokemonColorModel: Codable, Identifiable
+public struct PokemonHabitatModel: Codable, Identifiable
 ```
 **Properties**
 
-- **id:** The identifier for this color.
-- **name:** The name for this color.
-- **pokemon_species:** A list of the Pokémon species that have this color.
-
+- **id:** The identifier for this habitat.
+- **name:** The name for this habitat.
+- **pokemon_species:** A list of the Pokémon species that can be found in this habitat.
 
