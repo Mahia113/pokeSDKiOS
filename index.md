@@ -15,6 +15,7 @@ Swift implementation to the awesome Poké API
   - [Init](#init)
   - [Examples](#examples)
   - [Objects](#objects)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -62,21 +63,21 @@ let pokeSDK = PokeSDK()
 ```swift
  var cancellable: AnyCancellable?
     
-        cancellable = pokeSDK.Pokemon().getAllPokemons().sink(
-            receiveCompletion: {completion in
-                switch completion {
-                case .failure(let error):
-                    // Rendering a description of the error that was encountered:
-                    print("failure: \(error)")
-                case .finished:
-                    print("Success")
-                    break
-                }
-            },
-            receiveValue: { pokemons in
-                print(pokemons)
-            }
-        )
+ cancellable = pokeSDK.Pokemon().getAllPokemons().sink(
+      receiveCompletion: {completion in
+             switch completion {
+             case .failure(let error):
+                 // Rendering a description of the error that was encountered:
+                 print("failure: \(error)")
+             case .finished:
+                 print("Success")
+                 break
+             }
+         },
+     receiveValue: { pokemons in
+           print(pokemons)
+         }
+ )
 ```
 
 *For more examples, please refer to the [Examples](docs/examples.md) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
@@ -92,6 +93,16 @@ This section shows you a list with all available methods. Also each object has o
 - [Installation](#installation)
 
 *See complete list of [PokeSDK Objects](docs/objects.md)*
+
+## Documentation
+
+See complete docs here: 
+
+[PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
+
+[Examples](docs/examples.md)
+
+[Objects](docs/examples.md)
 
 ## Contributing
 
