@@ -34,11 +34,11 @@ Init method requires a client objet of PokeSDK type.
 
 Avalable methods: 
 
-- [init()](pokemon.md)
-- [getAllPokemons()](pokemon.md)
-- [getAllPokemonsByUrl()](pokemon.md)
-- [getPokemonByID()](pokemon.md)
-- [getPokemonByName()](pokemon.md#getPokemonByName())
+- [init()](pokemon.md#init)
+- [getAllPokemons()](pokemon.md#getAllPokemons)
+- [getAllPokemonsByUrl()](pokemon.md#getAllPokemonsByUrl)
+- [getPokemonByID()](pokemon.md#getPokemonByID)
+- [getPokemonByName()](pokemon.md#getPokemonByName)
 
 
 ## PokemonColor
