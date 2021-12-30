@@ -34,7 +34,7 @@ Init method requires a client objet of PokeSDK type.
 
 Avalable methods: 
 
-- [init()](docs/pokemon.md)
+- [init()](pokemon.md)
 - [getAllPokemons()]()
 - [getAllPokemonsByUrl()]()
 - [getPokemonByID()]()
