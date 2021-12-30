@@ -44,27 +44,39 @@ For instructions how to import a framework look here:
 An easy way to create the init object of PokeSDK
 
 ```swift
-let rmClient = RMClient()
+let pokeSDK = PokeSDK()
 ```
 
 ### Examples
 
 A brief example using the PokeSDK.
 
-Example to get all characters as an array of character struct:
+Example to get all pokemons as a PokemonsModel model struct:
 
 **1. Init client:**
 ```swift
-let rmClient = RMClient()
+let pokeSDK = PokeSDK()
 ```
 
 **2. Call character struct with function**
 ```swift
  var cancellable: AnyCancellable?
- cancellable = rmClient.character().getAllCharacters()
-            .sink(receiveCompletion: { _ in }, receiveValue: { characters in
-                characters.forEach() { print ($0.name) }
-            })
+    
+        cancellable = pokeSDK.Pokemon().getAllPokemons().sink(
+            receiveCompletion: {completion in
+                switch completion {
+                case .failure(let error):
+                    // Rendering a description of the error that was encountered:
+                    print("failure: \(error)")
+                case .finished:
+                    print("Success")
+                    break
+                }
+            },
+            receiveValue: { pokemons in
+                print(pokemons)
+            }
+        )
 ```
 
 *For more examples, please refer to the [Examples](docs/examples.md) or docs [PokeSDK Docs](https://mahia113.github.io/pokeSDKiOS/)*
