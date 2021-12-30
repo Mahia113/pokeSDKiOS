@@ -89,6 +89,17 @@ Available methods:
 
 ### PokemonStat
 
+PokemonStat struct contains all functions to request stat information(s) of pokemon world.
+
+Init method requires a client objet of PokeSDK type. 
+
+Available methods: 
+
+- [init()](pokemonStat.md#init)
+- [getAllStats()](pokemonStat.md#getAllStats)
+- [getDescriptionOfStatById()](pokemonStat.md#getDescriptionOfStatById)
+- [getDescriptionOfStatByName()](pokemonStat.md#getDescriptionOfStatByName)
+
 ### PokemonType
 
 ### NetworkHandler
