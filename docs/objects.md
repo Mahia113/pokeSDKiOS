@@ -42,9 +42,9 @@ Available methods:
 
 - [init()](pokemon.md#init)
 - [getAllPokemons()](pokemon.md#getAllPokemons)
-- [getAllPokemonsByUrl(url: )](pokemon.md#getAllPokemonsByUrl(url: ))
-- [getPokemonByID(id: )](pokemon.md#getPokemonByID)
-- [getPokemonByName(name: )](pokemon.md#getPokemonByName)
+- [getAllPokemonsByUrl()](pokemon.md#getAllPokemonsByUrl)
+- [getPokemonByID()](pokemon.md#getPokemonByID)
+- [getPokemonByName()](pokemon.md#getPokemonByName)
 
 
 ### PokemonColor
