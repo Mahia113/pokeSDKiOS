@@ -26,12 +26,15 @@ Avalable methods:
 - [PokemonStat()](#pokemonStat)
 - [PokemonType()](#pokemonType)
 
-## Pokemon
+## Pokemon()
 
 Pokemon struct contains all functions to request pokemon(s) information(s).
 
+Init method requires a client objet of PokeSDK type. 
+
 Avalable methods: 
 
+- [init()](docs/pokemon.md)
 - [getAllPokemons()]()
 - [getAllPokemonsByUrl()]()
 - [getPokemonByID()]()
