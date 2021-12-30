@@ -33,8 +33,8 @@ public struct PokemonTypeModel: Codable, Identifiable
 ```
 **Properties**
 
-- **id:** The identifier for this specie.
-- **name:** The name for this specie.
+- **id:** The identifier for this type.
+- **name:** The name for this type.
 - **damage_relations:** A detail of how effective this type is toward others and vice versa.
 - **pokemon:** A list of details of Pokémon that have this type.l
 - **moves:** A list of moves that have this type.
