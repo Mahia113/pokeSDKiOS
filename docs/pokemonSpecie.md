@@ -7,9 +7,10 @@ Init method requires a client objet of PokeSDK type.
 Available methods: 
 
 - [init()](#init)
-- [getAllHabitats()](#getAllHabitats)
-- [getHabitatById()](#getHabitatById)
-- [getHabitatByName()](#getHabitatByName)
+- [getAllSpecies()](pokemonSpecie.md#getAllSpecies)
+- [getAllSpeciesByURL()](pokemonSpecie.md#getAllSpeciesByURL)
+- [getSpecieById()](pokemonSpecie.md#getSpecieById)
+- [getSpecieByName()](pokemonSpecie.md#getSpecieByName)
 
 
 ## init()
@@ -21,7 +22,7 @@ Init method requires a client objet of PokeSDK type.
 public init(client: PokeSDK)
 ```
 
-## getAllHabitats()
+## getAllSpecies()
 
 Request all habitats of pokemon world.
 
@@ -35,7 +36,20 @@ public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
 [PokemonHabitatsModel](pokemonHabitatModels.md#pokemonHabitatsModel) model struct. 
 
 
-## getHabitatById()
+## getAllSpeciesByURL()
+
+Request all habitats of pokemon world.
+
+**Declaration**
+```swift
+public func getAllHabitats() -> Future <PokemonHabitatsModel, Error>
+```
+
+**Return Value**
+
+[PokemonHabitatsModel](pokemonHabitatModels.md#pokemonHabitatsModel) model struct. 
+
+## getSpecieById()
 
 Request a habitat by id.
 
@@ -52,7 +66,7 @@ public func getHabitatById(id: Int) -> Future <PokemonHabitatModel, Error>
 
 [PokemonHabitatModel](pokemonHabitatModels.md#pokemonHabitatModel) model struct. 
 
-## getHabitatByName()
+## getSpecieByName()
 
 Request a habitat by name.
 
