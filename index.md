@@ -111,9 +111,9 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-Linkedin:
+[Linkedin](https://www.linkedin.com/in/jos%C3%A9-luis-l-01556583/)
 
 ## Acknowledgements
 
-[Poke API](https://pokeapi.co/)
-[Github Pages](https://pages.github.com/)
+- [Poke API](https://pokeapi.co/)
+- [Github Pages](https://pages.github.com/)
