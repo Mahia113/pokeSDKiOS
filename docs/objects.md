@@ -1,12 +1,31 @@
 ## Welcome to Poke SDK iOS Docs
 
-### Object list
+### Structs
 
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Init](#init)
-  - [Objects](#objects)
-- Contributing
-- License
-- Contact
-- Acknowledgements
+This section shows you a list with all available Structs. Also each object has own methods. 
+
+- [PokeSDK](#pokeSDK)
+- [Pokemon](#pokemon)
+- [PokemonColor](#pokemonColor)
+- [PokemonHabitat](#pokemonHabitat)
+- [PokemonSpecie](#pokemonSpecie)
+- [PokemonStat](#pokemonStat)
+- [PokemonType](#pokemonType)
+- [NetworkHandler](#networkHandler)
+
+## PokeSDK
+
+## Pokemon
+
+## PokemonColor
+
+## PokemonHabitat
+
+## PokemonSpecie
+
+## PokemonStat
+
+## PokemonType
+
+## NetworkHandler
+
