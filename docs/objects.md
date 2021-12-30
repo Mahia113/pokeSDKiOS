@@ -102,5 +102,16 @@ Available methods:
 
 ### PokemonType
 
+PokemonType struct contains all functions to request types of pokemons information(s) of pokemon world.
+
+Init method requires a client objet of PokeSDK type. 
+
+Available methods: 
+
+- [init()](pokemonType.md#init)
+- [getAllTypes()](pokemonType.md#getAllTypes)
+- [getTypeById()](pokemonType.md#getTypeById)
+- [getTypeByName()](pokemonType.md#getTypeByName)
+
 ### NetworkHandler
 
