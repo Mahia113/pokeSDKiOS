@@ -8,9 +8,9 @@ Available methods:
 
 - [init()](#init)
 - [getAllPokemons()](#getAllPokemons)
-- [getAllPokemonsByUrl(url: )](#getAllPokemonsByUrl)
-- [getPokemonByID(id: )](#getPokemonByID)
-- [getPokemonByName(name: )](#getPokemonByName)
+- [getAllPokemonsByUrl()](#getAllPokemonsByUrl)
+- [getPokemonByID()](#getPokemonByID)
+- [getPokemonByName()](#getPokemonByName)
 
 
 ## init()
@@ -35,7 +35,7 @@ public func getAllPokemons() -> Future <PokemonsModel, Error>
 
 [PokemonsModel](pokemonModels.md#PokemonsModel) model struct. 
 
-## getAllPokemonsByUrl(url: )
+## getAllPokemonsByUrl()
 
 Request all pokemons by URL. Useful for pagination.
 
@@ -52,7 +52,7 @@ public func getAllPokemonsByUrl(url: String) -> Future <PokemonsModel, Error>
 
 [PokemonsModel](pokemonModels.md#PokemonsModel) model struct. 
 
-## getPokemonByID(id: )
+## getPokemonByID()
 
 Request a pokemon by id.
 
