@@ -1,4 +1,4 @@
-# Pokemon()
+# Pokemon Struct
 
 Pokemon struct contains all functions to request pokemon(s) information(s).
 
