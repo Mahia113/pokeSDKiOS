@@ -115,3 +115,11 @@ Available methods:
 
 ### NetworkHandler
 
+Struct for handling network requests and decoding JSON data
+
+Available methods: 
+
+- [init()](pokemonType.md#init)
+- [performAPIRequestByMethod()](NetworkHandler.md#performAPIRequestByMethod)
+- [performAPIRequestByURL()](NetworkHandler.md#performAPIRequestByURL)
+
