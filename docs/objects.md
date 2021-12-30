@@ -1,6 +1,6 @@
 ## Welcome to Poke SDK iOS Docs
 
-### Structs
+## Structs
 
 This section shows you a list with all available Structs. Also each object has own methods. 
 
@@ -13,7 +13,7 @@ This section shows you a list with all available Structs. Also each object has o
 - [PokemonType](#pokemonType)
 - [NetworkHandler](#networkHandler)
 
-## PokeSDK
+### PokeSDK
 
 This struct is the entry for PokeSDK. Init is empty, is not necesary pass arguments.
 
@@ -32,7 +32,7 @@ Available methods:
 - [PokemonStat()](#pokemonStat)
 - [PokemonType()](#pokemonType)
 
-## Pokemon()
+### Pokemon()
 
 Pokemon struct contains all functions to request pokemon(s) information(s).
 
@@ -47,15 +47,15 @@ Avalable methods:
 - [getPokemonByName()](pokemon.md#getPokemonByName)
 
 
-## PokemonColor
+### PokemonColor
 
-## PokemonHabitat
+### PokemonHabitat
 
-## PokemonSpecie
+### PokemonSpecie
 
-## PokemonStat
+### PokemonStat
 
-## PokemonType
+### PokemonType
 
-## NetworkHandler
+### NetworkHandler
 
