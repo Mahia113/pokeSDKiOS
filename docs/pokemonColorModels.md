@@ -25,7 +25,7 @@ public struct PokemonColorsModel: Codable
 
 ## PokemonColorModel
 
-PokemonModel struct for decoding pokemon json response.
+PokemonColorModel struct for decoding color json response.
 
 **Declaration**
 ```swift
