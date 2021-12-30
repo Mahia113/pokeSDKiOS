@@ -38,7 +38,7 @@ Pokemon struct contains all functions to request pokemon(s) information(s).
 
 Init method requires a client objet of PokeSDK type. 
 
-Avalable methods: 
+Available methods: 
 
 - [init()](pokemon.md#init)
 - [getAllPokemons()](pokemon.md#getAllPokemons)
