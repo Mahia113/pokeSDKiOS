@@ -28,7 +28,7 @@ Request all pokemons.
 
 **Declaration**
 ```swift
-public func getAllPokemons() -> Future <[PokemonsModel](pokemonModels.md#PokemonsModel), Error>
+public func getAllPokemons() -> Future <PokemonsModel, Error>
 ```
 
 **Return Value**
@@ -37,6 +37,16 @@ public func getAllPokemons() -> Future <[PokemonsModel](pokemonModels.md#Pokemon
 
 ## getAllPokemonsByUrl()
 
+Request all pokemons by URL. Useful for pagination.
+
+**Declaration**
+```swift
+public func getAllPokemonsByUrl(url: String) -> Future <PokemonsModel, Error> 
+```
+
+**Return Value**
+
+[PokemonsModel](pokemonModels.md#PokemonsModel) model struct. 
 
 ## getPokemonByID()
 
