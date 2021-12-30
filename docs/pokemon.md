@@ -15,6 +15,11 @@ Avalable methods:
 
 ## init()
 
+Init method requires a client objet of PokeSDK type.
+
+```swift
+public init(client: PokeSDK)
+```
 
 ## getAllPokemons()
 
