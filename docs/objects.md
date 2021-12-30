@@ -17,7 +17,7 @@ This section shows you a list with all available Structs. Also each object has o
 
 This struct is the entry for PokeSDK. Init is empty, is not necesary pass arguments.
 
-Avalable structs: 
+Avalable methods: 
 
 - [Pokemon()](#pokemon)
 - [PokemonColor()](#pokemonColor)
@@ -27,6 +27,16 @@ Avalable structs:
 - [PokemonType()](#pokemonType)
 
 ## Pokemon
+
+Pokemon struct contains all functions to request pokemon(s) information(s).
+
+Avalable methods: 
+
+- [getAllPokemons()]()
+- [getAllPokemonsByUrl()]()
+- [getPokemonByID()]()
+- [getPokemonByName()]()
+
 
 ## PokemonColor
 
