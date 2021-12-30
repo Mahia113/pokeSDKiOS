@@ -94,7 +94,6 @@ This section shows you a list with all available Structs. Also each object has o
 - PokemonStat
 - PokemonType
 - NetworkHandler
-- [Installation](#installation)
 
 *See complete list of structs and their methods [PokeSDK Structs](docs/objects.md)*
 
