@@ -8,8 +8,8 @@ Available methods:
 
 - [init()](#init)
 - [getAllHabitats()](#getAllHabitats)
-- [getColorById()](#getColorById)
-- [getColorByName()](#getColorByName)
+- [getHabitatById()](#getColorById)
+- [getHabitatByName()](#getColorByName)
 
 
 ## init()
