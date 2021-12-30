@@ -28,12 +28,12 @@ Request all pokemons.
 
 **Declaration**
 ```swift
-public func getAllPokemons() -> Future <PokemonsModel, Error>
+public func getAllPokemons() -> Future <[PokemonsModel](pokemonModels.md#PokemonsModel), Error>
 ```
 
 **Return Value**
 
-PokemonsModel model struct. [PokemonsModel](pokemonModels.md#PokemonsModel)
+[PokemonsModel](pokemonModels.md#PokemonsModel) model struct. 
 
 ## getAllPokemonsByUrl()
 
