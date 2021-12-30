@@ -32,7 +32,7 @@ Available methods:
 - [PokemonStat()](#pokemonStat)
 - [PokemonType()](#pokemonType)
 
-### Pokemon()
+### Pokemon
 
 Pokemon struct contains all functions to request pokemon(s) information(s).
 
@@ -48,6 +48,17 @@ Available methods:
 
 
 ### PokemonColor
+
+PokemonColor struct contains all functions to request color information(s) of pokemon world.
+
+Init method requires a client objet of PokeSDK type. 
+
+Available methods: 
+
+- [init()](pokemon.md#init)
+- [getAllColors()](pokemonColor.md#getAllColors)
+- [getColorById()](pokemonColor.md#getColorById)
+- [getColorByName()](pokemonColor.md#getColorByName)
 
 ### PokemonHabitat
 
