@@ -32,7 +32,7 @@ You can install pokeSDKiOS in two ways:
 
 For instructions how to import a framework: 
 
-You can download the .framework file, from [pokeSDK.framework.zip](https://github.com/Mahia113/pokeSDKiOS/blob/gh-pages/pokeSDK.framework.zip)
+You can download the .framework file from [pokeSDK.framework.zip](https://github.com/Mahia113/pokeSDKiOS/blob/gh-pages/pokeSDK.framework.zip)
 
 > To include a framework in your Xcode project, choose Project > Add to Project and select the framework directory. It's possible you need to add manually the option 'embed and sign', sometimes xcode does not.
 
