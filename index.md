@@ -28,11 +28,39 @@ It requires iOS 13+ and Xcode 13!
 You can install pokeSDKiOS in two ways: 
 
 - Importing framework file
-- Using cocoapods 
+- Using a pod
 
 For instructions how to import a framework:
 
-To include a framework in your Xcode project, choose Project > Add to Project and select the framework directory. It's possible you need to add manually the option 'embed and sign', sometimes xcode does not.
+> To include a framework in your Xcode project, choose Project > Add to Project and select the framework directory. It's possible you need to add manually the option 'embed and sign', sometimes xcode does not.
+
+And for import use the follow: 
+
+```swift
+import pokeSDK
+```
+
+For instructions how to add a pod, look here: 
+
+> In your xcode project, open the Podfile to add the following line: 
+
+```swift
+pod 'PokeSDKSwift', :git => 'https://github.com/Mahia113/PokeSDKSwift.git'
+```
+
+Save and then run the command: 
+
+```swift
+pod install
+```
+
+And for import use the follow: 
+
+```swift
+import PokeSDKSwift
+```
+
+Enjoy!
 
 
 <!-- USAGE EXAMPLES -->
