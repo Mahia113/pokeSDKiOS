@@ -66,6 +66,20 @@ Enjoy!
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### Import
+
+If you import the .framework file to your xcode project use: 
+
+```swift
+import pokeSDK
+```
+
+If you add the pod  to your xcode project use: 
+
+```swift
+import PokeSDKSwift
+```
+
 ### Init
 
 An easy way to create the init object of PokeSDK
